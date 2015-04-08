@@ -1,22 +1,21 @@
 ### Site info:
-title: Freshman21
-tagline: Another Jekyll theme, Freshman twenty-first
-author: Lijia Yu
-email: yu@lijiayu.net
-description: "Freshman21 is a Jekyll blog theme." # You can edit this line in _config.yml. It will appear in your document head meta and in your feed.xml site description
-keywords: "Jekyll, theme, Freshman21"
+title: Viktor Vorobjov
+tagline: Odoo Developer
+email: vostraga@gmail.com
+description: "Viktor blog" # You can edit this line in _config.yml. It will appear in your document head meta and in your feed.xml site description
+keywords: "Viktor Voroboj, Odoo"
 baseurl: "/freshman21" # the subpath of your site, e.g. /blog/
-url: "http://yulijia.net/freshman21" # the base hostname & protocol for your site
+url: ""#"https://straga.github.io" # the base hostname & protocol for your site
 locale: en_US
 
 ### Personal info and site tools info:
-twitter_username: yulijia
-github_username:  yulijia
-disqus_shortname: freshman21
+twitter_username: straga
+github_username:  straga
+disqus_shortname: straga
 favicon:     "/images/favicon.ico"
-aboutme: Hi, this is Lijia Yu. I made the Freshman21 theme. Please enjoy it. # these are shown on aboutme-sidebar.
+aboutme: Hi, this is Viktor Vorobjov. I made Odoo modules. Please enjoy it. # these are shown on aboutme-sidebar.
 aboutme_photo: https://i.imgur.com/Mdc4szJl.jpg# your photo.
-google_analytics_key: UA-57979084-1 # put YOUR key here to enable tracking! (blank to disable)
+#google_analytics_key: UA-57979084-1 # put YOUR key here to enable tracking! (blank to disable)
 
 
 ### Site setting:
@@ -39,7 +38,7 @@ locales:
       Taggedwith: "and tagged"
       PostDate: "on "
       Google_search: "Site Search"
-    cn:
+    lv:
       Aboutme: "关于我"
       Archives: "存档"
       Blogroll: "良师益友"        

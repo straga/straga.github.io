@@ -4,7 +4,7 @@ tagline: Odoo Developer
 email: vostraga@gmail.com
 description: "Viktor blog" # You can edit this line in _config.yml. It will appear in your document head meta and in your feed.xml site description
 keywords: "Viktor Voroboj, Odoo"
-baseurl: "/freshman21" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: ""#"https://straga.github.io" # the base hostname & protocol for your site
 locale: en_US
 

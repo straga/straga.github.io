@@ -2,7 +2,7 @@
 published: true
 title: Hello world!
 layout: post
-author: Yu
+author: Viktor
 category: Uncategorized
 tags: HelloWorld
 

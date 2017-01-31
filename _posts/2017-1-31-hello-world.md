@@ -3,8 +3,8 @@ published: true
 title: Hello world!
 layout: post
 author: Viktor
-category: Uncategorized
+category: Odoo
 tags: HelloWorld
 
 ---
-Odoo 10. 
+Odoo 10 v. 

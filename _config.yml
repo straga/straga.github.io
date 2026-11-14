@@ -2,57 +2,16 @@
 title: Viktor Vorobjov
 tagline: Odoo Developer
 email: vostraga@gmail.com
-description: "Viktor blog of odoo developer" # You can edit this line in _config.yml. It will appear in your document head meta and in your feed.xml site description
-keywords: "Viktor Voroboj, Odoo"
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: ""#"https://straga.github.io" # the base hostname & protocol for your site
+description: "Viktor Vorobjov — Odoo developer, author of Gantt Native, building letapis AI"
+baseurl: ""
+url: "https://straga.github.io"
 locale: en_US
 
-### Personal info and site tools info:
-skype_username:  straga
+### Personal accounts (used in social meta):
 twitter_username: straga
 github_username:  straga
-##disqus_shortname: straga
-favicon:     "/images/favicon.ico"
-aboutme: Hi, this is Viktor Vorobjov. I made Odoo modules. Please enjoy it. # these are shown on aboutme-sidebar.
-aboutme_photo: /images/viktor1.jpg# your photo.
-#google_analytics_key: UA-57979084-1 # put YOUR key here to enable tracking! (blank to disable)
-
-
-### Site setting:
-ShowContactInfo: "True" # Personal Info (twitter,github,email) can be seen on aboutme-sidebar, those info only shown where ShowContactInfo == True
-default_column: "two" # blog style: two columns, if default_column != "two", you will see a one column blog.
-default_locale: "en" # blog sidebar language set, only include: English(en) and Chinese (cn)
-
-locales:
-    en:
-      Aboutme: "About Me"
-      Archives: "Archives"
-      Blogroll: "Blogroll"
-      Categories: "Categories"
-      Copyright_Notice: "Copyright Notice"
-      Recent_Posts: "Recent Posts"
-      Tags: "Tags"
-      Previous: "Older"
-      Next: "Newer"
-      PostedInCategories: "Posted in"
-      Taggedwith: "and tagged"
-      PostDate: "on "
-      #Google_search: "Site Search"
-
-### your Blogroll info, only name can shown on the page.
-
-#Blogroll:
-#      - name: Freshman
-#        href: http://yulijia.net/freshman
-#        title: Another Jekyll blog theme
-##      - name: author's website
- #       href: http://yulijia.net/
-#        title: Lijia Yu's website
-
+favicon: "/images/favicon.ico"
 
 ### Build settings
 markdown: kramdown
-highlighter: pygments
-paginate: 5
-excerpt_separator: <!-- more -->
+highlighter: rouge

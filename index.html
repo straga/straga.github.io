@@ -1,45 +1,59 @@
 ---
-layout: default
+layout: landing
 ---
 
-<div class="home">
-  <div class="post" itemscope itemtype="http://schema.org/BlogPosting" >
-
-    {% for post in paginator.posts %}
-
-    <header class="post-header">
-      <h1 itemprop="name" class="post-title">
-        <a itemprop="url" class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </h1>
-      <meta itemprop="keywords" content="{{ post.tags | join: ',' }}" />
-      <p class="post-meta">
-      {{ site.locales[site.default_locale].PostedInCategories }}
-      {% for cat in post.categories %}
-      <a href="{{site.baseurl}}/categories/#{{ cat }}">{{ cat }}</a>&nbsp;
-      {% endfor %}
-      {% if post.tags != empty %}
-      {{ site.locales[site.default_locale].Taggedwith }}
-      {% for tag in post.tags %}
-      <a href="{{ site.baseurl }}/tags/#{{ tag }}" title="{{ tag }}">{{ tag }} </a>{% unless post.tags.last == tag %}, {% endunless %}
-      {% endfor %}
-      {% endif %}
-      <time itemprop="datePublished" datetime="{{ post.date | date: '%Y-%m-%d' }}">
-        {{ site.locales[site.default_locale].PostDate }}{{ post.date | date: "%b %-d, %Y" }}
-      </time>
-      </p>
-    </header>
-
-    <article class="post-content" itemprop="articleBody">
-      {% if post.content contains site.excerpt_separator %}
-      {{ post.excerpt }}
-      <p style="text-align: right"><a href="{{ post.url | prepend: site.baseurl }}">Read more</a></p>
-      {% else %}
-      {{ post.content }}
-      {% endif %}
-    </article>
-    <hr />
-
-    {% endfor %}
-
+<section class="hero">
+  <p class="eyebrow">Odoo developer &middot; letapis AI</p>
+  <h1 class="serif">Viktor Vorobjov</h1>
+  <p class="supp">I build planning tools for Odoo and meaning-first search for AI agents.</p>
+  <div class="cta">
+    <a class="btn primary" href="https://letapis.ai">letapis AI</a>
+    <a class="btn" href="https://github.com/straga">GitHub</a>
+    <a class="btn" href="mailto:vostraga@gmail.com">Email</a>
   </div>
-</div>
+</section>
+
+<section class="section" id="letapis">
+  <h2 class="serif">letapis AI</h2>
+  <p>Search and memory over your code and documents, asked by meaning instead of grepped by
+  hand. One query finds where something is handled, who calls a symbol, and what was decided
+  about it last week. It runs as an MCP server, so AI coding agents stop re-reading the
+  repository from scratch on every session.</p>
+  <p class="links">
+    <a href="https://letapis.ai">letapis.ai</a> &middot;
+    <a href="https://letapis.ai/docs">documentation</a>
+  </p>
+</section>
+
+<section class="section" id="farm">
+  <h2 class="serif">AI farm</h2>
+  <p>A small farm of AI coding agents doing real engineering: each head has a role — planning,
+  writing, reviewing, testing — and they pass work to each other through a shared registry,
+  documentation and long-term memory. Not a demo: it ships the products on this page.</p>
+</section>
+
+<section class="section" id="hardware">
+  <h2 class="serif">Hardware</h2>
+  <p>A compact AMD Strix Halo box with unified memory runs local language models and our
+  self-hosted services — including the machine that runs letapis itself. Tuning one small
+  machine to do the work of a rack.</p>
+</section>
+
+<section class="section" id="odoo">
+  <h2 class="serif">Gantt Native for Odoo</h2>
+  <p>A native Gantt suite for Odoo: interactive bars, dependencies and critical path, project
+  planning with WBS, and Gantt views for manufacturing and time off. Sold on the Odoo App
+  Store, kept current on Odoo 18, 19 and 20.</p>
+  <div class="cards">
+    <div class="card">
+      <h3>Gantt Native Web view</h3>
+      <p>The Gantt view itself: tree of tasks, bars, links &mdash; the engine behind the suite.</p>
+      <a href="https://apps.odoo.com/apps/modules/18.0/web_gantt_native/">Store page &rarr;</a>
+    </div>
+    <div class="card">
+      <h3>Gantt Native for Projects</h3>
+      <p>Project and task planning on top of the view: scheduling, constraints, reports.</p>
+      <a href="https://apps.odoo.com/apps/modules/18.0/project_native/">Store page &rarr;</a>
+    </div>
+  </div>
+</section>
